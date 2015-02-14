@@ -1,7 +1,7 @@
 docker-dmd
 ---
 
-Docker container for Digital Mars D compiler.
+Docker container for [Digital Mars D compiler](http://dlang.org/), comes with latest D compiler and [dub](https://github.com/D-Programming-Language/dub).
 
 To build:
 ```
@@ -10,7 +10,7 @@ make
 
 To pull repository from dockerhub:
 ```
-docker pull najamkhn:dmd
+docker pull najamkhn/dmd
 ```
 
 ---
